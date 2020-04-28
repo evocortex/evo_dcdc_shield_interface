@@ -66,7 +66,7 @@ add_dependencies(${PROJECT_NAME}_test_node
 target_link_libraries(${PROJECT_NAME}_test_node
   ${catkin_LIBRARIES}
   ${PROJECT_NAME}
-  evo_mbed_tools
+  evo-mbed-tools
   pthread
 )
 
