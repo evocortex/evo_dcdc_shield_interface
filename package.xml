@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>evo_dcdc_shield_interface</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <description>The evo_dcdc_shield_interface package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
@@ -50,6 +50,8 @@
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
 
+  <build_depend>evo_mbed_tools_dev</build_depend>
+  <depend>evo_mbed_tools</depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
